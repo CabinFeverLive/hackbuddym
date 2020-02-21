@@ -1,0 +1,24 @@
+.learnSection{
+    display: grid;
+}
+
+.learnHeader{
+    display: grid;
+    margin: 0 auto;
+    margin-bottom: 3em;
+}
+
+.learnSection div{
+    height: 150px;
+    width: 150px;
+    background-color: gray;
+}
+
+.wrapper{
+    margin-left: 23em;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 200px;
+    grid-gap: 90px;
+    align-content: space-between;
+}

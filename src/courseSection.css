@@ -1,0 +1,18 @@
+.courseSection{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 3em;
+}
+
+.courseImgWrapper{
+    height: 150px;
+    width: 350px;
+    border: solid 1px black;
+}
+
+.courseContent{
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 600px;
+}

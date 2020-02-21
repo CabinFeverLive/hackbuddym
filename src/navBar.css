@@ -1,0 +1,22 @@
+nav{
+    background-color: yellow;
+    display: inline;
+    height: 2.7em;
+    width: 100%;
+}
+
+h1{
+    font-size: 1em;
+    display: inline;
+}
+
+ul{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    margin-right: ;
+}
+li{
+    display: inline;
+   
+}
