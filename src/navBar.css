@@ -1,22 +1,49 @@
-nav{
-    background-color: yellow;
-    display: inline;
-    height: 2.7em;
+.navbar{
     width: 100%;
-}
-
-h1{
-    font-size: 1em;
-    display: inline;
-}
-
-ul{
-    position: absolute;
+    position: fixed;
+    background-color: yellow;
+    height: 56px;
     top: 0;
-    right: 0px;
-    margin-right: ;
+    left: 0;
 }
-li{
-    display: inline;
-   
+
+.navbar__navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.navbar__navigation-items ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar__navigation-items li{
+    padding: 0 0.5rem;
+    border-left: 1px solid black;
+    font-size: .75rem;
+}
+
+.navbar__navigation-items a:hover,
+.navbar__navigation-items a:active{
+text-decoration: none;
+    color:orange;
+
+}
+
+.navbar__navigation-items a {
+    text-decoration: none;
+    
+}
+
+.navbar__logo a {
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.spacer{
+    flex: 1;
 }
