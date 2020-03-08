@@ -1,14 +1,6 @@
 import React from 'react';
 import 'tachyons'
-import './navBar.css'
 import List from './NavBar.js'
-import './headerSection.css'
-
-import './meetupSection.css'
-
-import './courseSection.css'
-
-import './learnSection.css'
 import learnSection from './LearnSection';
 import HeaderSection from './HeaderSection';
 import MeetupSection from './MeetupSection';
@@ -20,17 +12,18 @@ import LearnSection from './LearnSection';
 function App() {
   return (
     <>
+    <div style={{width:'100%'}} />
       <nav>
-        <ul>
+        <ul style={{padding:'0', margin: '0'}}>
           <List />
         </ul>
       </nav>
 
-    <section>
+    <section style={{textAlign:'center', marginBottom:'3em'}}>
       <HeaderSection />
     </section>
 
-    <section>
+    <section style={{borderTop:'.5px solid black'}}>
       <MeetupSection />
     </section>
 
