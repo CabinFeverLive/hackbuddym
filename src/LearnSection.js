@@ -1,18 +1,25 @@
 import React from 'react';
 
-const LearnSection = props => (
+function Card(props){
+  return(
+    <div className='w3 h3 bg-blue' style={{margin:'0 auto'}}></div>
+    //{props.cardTitle} for specific Card titles
+  )
+}
+
+function CardList(props){
+  return props.cards.map((card) => <div className='w-30 ma1'><Card /></div>) 
+}
+
+const LearnSection = ({title, cards}) => (
     <section className='learnSection'>
 
-        <h1 className='learnHeader'>Learn to Code: Blogs and Tutorials</h1>
+      <h1 className='learnHeader tc mt3'>{title}</h1>
 
-        <div className='wrapper'>
-        <div>one</div>
-        <div>two</div>
-        <div>three</div>
-        <div>four</div>
-        <div>five</div>
-        <div>six</div>
+        <div className='flex flex-wrap justify-around'>
+          <CardList cards={cards} />
         </div>
+      
       </section>
 )
 

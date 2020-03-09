@@ -1,6 +1,6 @@
 import React from 'react';
 import 'tachyons'
-import List from './NavBar.js'
+import NavBar from './NavBar.js'
 import learnSection from './LearnSection';
 import HeaderSection from './HeaderSection';
 import MeetupSection from './MeetupSection';
@@ -15,7 +15,7 @@ function App() {
     <div style={{width:'100%'}} />
       <nav>
         <ul style={{padding:'0', margin: '0'}}>
-          <List />
+          <NavBar />
         </ul>
       </nav>
 
@@ -32,7 +32,16 @@ function App() {
      </section>
 
       <section>
-        <LearnSection />
+        <LearnSection 
+          title='Learn to Code: Blog & Tutorials' 
+          cards={[1,2,3,4,5,6]}
+        />
+      </section>
+
+      <section>
+        <LearnSection title='Check out the Shop!' 
+        cards={[1,2,3]}
+        />
       </section>
 
       

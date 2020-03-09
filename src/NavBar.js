@@ -1,7 +1,7 @@
 import React from 'react';
 import tachyons from 'tachyons';
 
-const List = props => (
+const NavBar = props => (
         <nav className='dt bg-yellow w-100 border-box pa 3 ph5-ns' style={{height: '40px'}}>
             <a className='dtc v-mid mid-gray link dim w-20' href='#'>Hackbuddy</a>
             <div className='dtc v-mid w75 tr'>
@@ -18,4 +18,4 @@ const List = props => (
 
 )
 
-export default List;
+export default NavBar;
