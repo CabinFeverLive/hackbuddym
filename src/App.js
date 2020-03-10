@@ -6,6 +6,7 @@ import HeaderSection from './HeaderSection';
 import MeetupSection from './MeetupSection';
 import CourseSection from './CourseSection';
 import LearnSection from './LearnSection';
+import FooterBar from './FooterBar.js';
 
 
 
@@ -44,6 +45,13 @@ function App() {
         />
       </section>
 
+      <section style={{borderBottom: '1px solid gray', marginTop:'250px'}}>
+        {/* sponsorsensor */}
+      </section>
+
+      <section style={{marginBottom:'30px'}}>
+        <FooterBar />
+      </section>
       
     </>
   );
