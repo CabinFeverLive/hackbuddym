@@ -3,9 +3,14 @@
 }
 
 .headerButton {
-    margin-top: 4.5em;
+    margin-top: 6em;
 }
 
 .headerContent {
     margin-top: 2em;
+    color: white;
+}
+
+.headerContent_2 {
+    
 }

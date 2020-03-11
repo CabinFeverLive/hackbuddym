@@ -1,7 +1,8 @@
 .link {
     font-size: .75em;
     border-right: .5px solid black;
-    padding-right: 5px;
+    padding-right: 7px;
+    font-weight: 625;
 }
 
 .hackBuddyLogo {

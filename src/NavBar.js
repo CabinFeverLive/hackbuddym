@@ -12,7 +12,7 @@ const NavBar = props => (
                  <a className='link dim dark-gray f6 f5-ns dib mr3 mr4-ns'  href='#'>WorkShops</a> 
                  <a className='link dim dark-gray f6 f5-ns dib mr3 mr4-ns'  href='#'>Products</a> 
                  <a className='link dim dark-gray f6 f5-ns dib mr3 mr4-ns'  href='#'>Sponsors</a> 
-                 <a className='link dim dark-gray f6 f5-ns dib' href='#'>Blog</a> 
+                 <a style={{border:'none'}}className='link dim dark-gray f6 f5-ns dib' href='#'>Blog</a> 
                 </div>
             </div>
         </nav>
