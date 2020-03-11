@@ -8,10 +8,10 @@ const MeetupSection = props => (
       <h1>Upcoming Meetups</h1>
       
       <ReactSiema>
-        <div> <img src='http://placekitten.com/g/650/350' alt='gray kitten'/></div>
-        <div> <img src='http://placekitten.com/g/650/350' alt=''/></div>
-        <div> <img src='http://placekitten.com/g/650/350' alt=''/></div>
-        <div> <img src='http://placekitten.com/g/650/350' alt=''/></div>
+        <div> <img src='http://placekitten.com/g/725/350' alt='gray kitten'/></div>
+        <div> <img src='http://placekitten.com/g/725/350' alt=''/></div>
+        <div> <img src='http://placekitten.com/g/725/350' alt=''/></div>
+        <div> <img src='http://placekitten.com/g/725/350' alt=''/></div>
       </ReactSiema>
     </div>
 
