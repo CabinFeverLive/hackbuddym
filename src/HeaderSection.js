@@ -5,7 +5,7 @@ const HeaderSection = props => (
     <section className="headerSection" style={{height:'275px'}}>
     <img className="headerImgBackground"/>
     <img className="headerImgOverlay"/>
-    <p className='headerContent 1'>Become a Smarter Programmer</p>
+    <p className='headerContent 1'>Become a <strong>SMARTER</strong> Programmer</p>
     
     <p className='headerContent 2'>Meetup, Events, Workshops <br></br>
       in Los Angeles, Orange County and Online via the Web
