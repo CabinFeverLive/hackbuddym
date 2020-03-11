@@ -7,9 +7,9 @@ const CourseSection = props => (
       </div>
       <div className='spacer' style={{flex:'1'}}></div>
       <div className='courseContent'>
-        <h1>Get the Scoop on ES2020!</h1>
+        <h1 className='mt4'>Get the Scoop on ES2020!</h1>
         <p style={{width:'30%'}}> lorem ipsum blah blah blahlah blah lorem ipsum ipsum lorem </p>
-        <button>Buy Now!</button>
+        <button className='mt5'>Buy Now!</button>
       </div>
   </section>
 )
