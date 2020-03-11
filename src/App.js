@@ -7,6 +7,7 @@ import MeetupSection from './MeetupSection';
 import CourseSection from './CourseSection';
 import LearnSection from './LearnSection';
 import FooterBar from './FooterBar.js';
+import SponsorSection from './SponsorSection.js';
 
 
 
@@ -24,7 +25,7 @@ function App() {
       <HeaderSection />
     </section>
 
-    <section style={{borderTop:'.5px solid black'}}>
+    <section style={{paddingLeft:'6em',paddingRight:'6em', marginBottom:'3em'}}>
       <MeetupSection />
     </section>
 
@@ -32,21 +33,25 @@ function App() {
        <CourseSection />
      </section>
 
-      <section>
+      <section className='mt6'>
         <LearnSection 
           title='Learn to Code: Blog & Tutorials' 
           cards={[1,2,3,4,5,6]}
         />
       </section>
 
-      <section>
-        <LearnSection title='Check out the Shop!' 
-        cards={[1,2,3]}
+      <section style={{marginTop:'6em'}}>
+        <LearnSection 
+          title='Check Out The Shop!' 
+          cards={[1,2,3]}
         />
       </section>
 
       <section style={{borderBottom: '1px solid gray', marginTop:'250px'}}>
-        {/* sponsorsensor */}
+        <SponsorSection 
+          title='Thank You To The Following Sponsors!'
+          logos={[1,2,3,4,5]}
+        />
       </section>
 
       <section style={{marginBottom:'30px'}}>

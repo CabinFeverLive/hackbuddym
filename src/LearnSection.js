@@ -2,7 +2,7 @@ import React from 'react';
 
 function Card(props){
   return(
-    <div className='w3 h3 bg-blue' style={{margin:'0 auto'}}></div>
+    <div className='w5 h5' style={{margin:'0 auto', background: 'linear-gradient(to bottom, skyblue, purple, violet, pink)'}}></div>
     //{props.cardTitle} for specific Card titles
   )
 }
