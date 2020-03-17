@@ -2,13 +2,13 @@ import React from 'react';
 
 function Card(props){
   return(
-    <div className='w5 h5' style={{margin:'0 auto', background: 'linear-gradient(to bottom, skyblue, purple, violet, pink)'}}></div>
+    <div className='' style={{padding:'1.5em', height:'200px', maxWidth:'200px', margin:'0 auto', background: 'linear-gradient(to bottom, skyblue, purple, violet, pink)'}}></div>
     //{props.cardTitle} for specific Card titles
   )
 }
 
 function CardList(props){
-  return props.cards.map((card) => <div className='w-30 ma1'><Card /></div>) 
+  return props.cards.map((card) => <div style={{marginBottom:'2em'}} className='w-30 ma1'><Card /></div>) 
 }
 
 const LearnSection = ({title, cards}) => (
@@ -16,7 +16,7 @@ const LearnSection = ({title, cards}) => (
 
       <h1 className='learnHeader tc mt3'>{title}</h1>
 
-        <div className='flex flex-wrap justify-around'>
+        <div className='flex flex-wrap justify-around' style={{minWidth:'600px'}}>
           <CardList cards={cards} />
         </div>
       
