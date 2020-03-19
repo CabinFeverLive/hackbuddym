@@ -1,5 +1,5 @@
 .headerSection {
-    background: linear-gradient(to bottom, skyblue, purple, violet, pink);
+    background: linear-gradient(to bottom, #f44e5c, #ca6dde, #0cc2ea);
 }
 
 .headerButton {
@@ -13,4 +13,12 @@
 
 .headerContent_2 {
     
+}
+
+@media only screen and (max-width: 800px){
+    .headerSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }

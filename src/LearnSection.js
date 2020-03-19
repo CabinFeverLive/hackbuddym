@@ -1,8 +1,9 @@
 import React from 'react';
+import './LearnSection.css'
 
 function Card(props){
   return(
-    <div className='' style={{padding:'1.5em', height:'200px', maxWidth:'200px', margin:'0 auto', background: 'linear-gradient(to bottom, skyblue, purple, violet, pink)'}}></div>
+    <div className='' style={{padding:'1.5em', height:'200px', maxWidth:'200px', margin:'0 auto', background: 'linear-gradient(to bottom, #f44e5c, #ca6dde, #0cc2ea)'}}></div>
     //{props.cardTitle} for specific Card titles
   )
 }
@@ -16,7 +17,7 @@ const LearnSection = ({title, cards}) => (
 
       <h1 className='learnHeader tc mt3'>{title}</h1>
 
-        <div className='flex flex-wrap justify-around' style={{minWidth:'600px'}}>
+        <div className='flex flex-wrap justify-around cardListMain' style={{minWidth:'600px'}}>
           <CardList cards={cards} />
         </div>
       

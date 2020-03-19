@@ -1,0 +1,9 @@
+
+@media only screen and (max-width: 800px){
+    .cardListMain {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
